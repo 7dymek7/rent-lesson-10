@@ -1,0 +1,9 @@
+[tool.ruff]
+select = ["ALL"]
+
+# ignoruj reguły, które nie mają sensu w tym projekcie
+ignore = [
+    "D103",  # brak docstring w metodach
+    "B006",  # użycie mutowalnych domyślnych argumentów
+    "F821",  # niektóre zmienne mogą być niezdefiniowane w demo
+    "E501",  # linie >
